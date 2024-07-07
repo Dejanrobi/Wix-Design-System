@@ -1,0 +1,14 @@
+{
+  "appId": "681990c0-6ff9-4bb7-8fef-6fd5bf830b4f",
+  "projectId": "custom-products-dejan-learn",
+  "dashboard": {
+    "sidebar": {
+      "categories": [
+        {
+          "id": "a1efac42-a928-470d-8b82-26661b6f906b",
+          "label": "Wix Design System"
+        }
+      ]
+    }
+  }
+}
