@@ -20,6 +20,15 @@ import FieldSetComponent from '../../formComponents/FieldSetComponent';
 import RichTextInputAreaComponent from '../../formComponents/RichTextInputAreaComponent';
 import SearchComponent from '../../formComponents/SearchComponent';
 import ToggleSwitchComponent from '../../formComponents/ToggleSwitchComponent';
+import FileUploadComponent from '../../formComponents/FileUploadComponent';
+import FormFieldComponent from '../../formComponents/FormFieldComponent';
+import InputComponent from '../../formComponents/InputComponent';
+import InputAreaComponent from '../../formComponents/InputAreaComponent';
+import MultiSelectComponent from '../../formComponents/MultiSelectComponent';
+import NumberInputComponent from '../../formComponents/NumberInputComponent';
+import RadioComponent from '../../formComponents/RadioComponent';
+import SegmentedToggleComponent from '../../formComponents/SegmentedToggleComponent';
+import TimeInputComponent from '../../formComponents/TimeInputComponent';
 
 
 
@@ -112,6 +121,64 @@ export default withProviders(function FormsPage(){
           </Cell>
 
           <Cell>
+            <Box paddingTop="SP4" paddingBottom="SP4">
+              <Heading size='medium'>File Upload</Heading>
+            </Box>
+
+            <FileUploadComponent/>
+          </Cell>
+
+          <Cell>
+            <Box paddingTop="SP4" paddingBottom="SP4">
+              <Heading size='medium'>Form Field</Heading>
+            </Box>
+
+            <FormFieldComponent/>
+          </Cell>
+
+          <Cell>
+            <Box paddingTop="SP4" paddingBottom="SP4">
+              <Heading size='medium'>Input</Heading>
+            </Box>
+
+            <InputComponent/>
+          </Cell>
+
+          <Cell>
+            <Box paddingTop="SP4" paddingBottom="SP4">
+              <Heading size='medium'>Input Area</Heading>
+            </Box>
+
+            <InputAreaComponent/>
+          </Cell>
+
+          <Cell>
+            
+            <Box paddingTop="SP4" paddingBottom="SP4">
+             <Heading size='medium'>Multi Select</Heading>
+            </Box>
+            <MultiSelectComponent/>
+          </Cell>
+
+
+          <Cell>
+            
+            <Box paddingTop="SP4" paddingBottom="SP4">
+             <Heading size='medium'>Number Input</Heading>
+            </Box>
+            <NumberInputComponent/>
+          </Cell>
+
+          <Cell>
+            
+            <Box paddingTop="SP4" paddingBottom="SP4">
+             <Heading size='medium'>Radio</Heading>
+            </Box>
+            <RadioComponent/>
+          </Cell>
+      
+
+          <Cell>
             
             <Box paddingTop="SP4" paddingBottom="SP4">
              <Heading size='medium'>Rich Text Input Area</Heading>
@@ -130,11 +197,30 @@ export default withProviders(function FormsPage(){
           <Cell>
             
             <Box paddingTop="SP4" paddingBottom="SP4">
+             <Heading size='medium'>Segmented Toggle</Heading>
+            </Box>
+            <SegmentedToggleComponent/>
+          </Cell>
+
+          <Cell>
+            
+            <Box paddingTop="SP4" paddingBottom="SP4">
+             <Heading size='medium'>Time Input</Heading>
+            </Box>
+            <TimeInputComponent/>
+          </Cell>
+
+          <Cell>
+            
+            <Box paddingTop="SP4" paddingBottom="SP4">
              <Heading size='medium'>Toggle Switch</Heading>
             </Box>
             <ToggleSwitchComponent/>
           </Cell>
-        </Layout>
+
+         
+
+          </Layout>  
       </Page.Content>
     </Page>
   )
